@@ -1,5 +1,8 @@
 echo "Hello External Script"
 
+#Create alias to ls so that it's easier to read the directories
+#echo 'alias ls="ls -GFh"' >> .bash_profile
+
 #Install setuptools easy packaging and installation facilities
 echo "Installing setuptools"
 echo " "
@@ -20,3 +23,4 @@ sudo pip install virtualenv
 echo "Installing sqlite3"
 echo "  "
 sudo apt-get install sqlite3
+

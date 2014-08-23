@@ -32,6 +32,7 @@ def render_test():
 def login():
 	return render_template('login.html')
 
+#The actual entry that works for Angular
 @app.route('/noproblem')
 def noproblem():
 	return render_template('sample.html')
