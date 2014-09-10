@@ -1,9 +1,16 @@
 from flask import Flask, url_for, render_template, redirect
-app = Flask(__name__)
+
+app = Flask(__name__) #creates a Flask application object with the __main__ app name
 
 #Setting Flask in debug mode
 app.debug = True
 
+
+############################################################################
+# Application routes section
+#
+#
+############################################################################
 @app.route('/')
 def hello_world():
 	return 'Hello World: Are you there Jorge!'
@@ -46,5 +53,7 @@ with app.test_request_context():
 	print url_for('static', filename='style.css')
 
 
+#If the name of the app is "__main__," then execute the app.run method
+#This is the code that starts the execution of the application
 if __name__ == '__main__':
-	app.run(host='0.0.0.0')
+	app.run(host='0.0.0.0') #app is the object that represents the Flask application
