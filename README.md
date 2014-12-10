@@ -15,3 +15,7 @@ alias ls='ls -GFh'
 http://blog.jasongiedymin.com/post/3855004203/make-eclipse-pydev-happy-to-see-flask-flask
 - helps with making sure PyDev imports flask
 - helps with setting up the Eclipse project using venv
+
+#Other Resources:
+- Flask Tutorial by Miguel Grinberg: http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+- Flask Videos and Book by Miguel Grinberg: http://flaskbook.com/#flaskintro
