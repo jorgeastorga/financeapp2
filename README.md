@@ -11,3 +11,7 @@ alias lh='ls -lhaG'
 # ls alias for color-mode and trailing slash
 alias ls='ls -GFh'
 
+#For setting up in Eclipse, look here:
+http://blog.jasongiedymin.com/post/3855004203/make-eclipse-pydev-happy-to-see-flask-flask
+- helps with making sure PyDev imports flask
+- helps with setting up the Eclipse project using venv
